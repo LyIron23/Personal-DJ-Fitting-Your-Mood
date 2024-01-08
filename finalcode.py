@@ -7,7 +7,7 @@ import spotipy
 from spotipy.oauth2 import SpotifyClientCredentials
 def get_weather_info(location):
     # Replace 'YOUR_API_KEY' with your actual OpenWeatherMap API key
-    api_key = '47a5a30340051f02af63ef6263d70143'
+    api_key = '***'
     # OpenWeatherMap API endpoint for 5-day forecast by city name
     api_url = f'https://api.openweathermap.org/data/2.5/forecast?q={location}&appid={api_key}'
     try:
